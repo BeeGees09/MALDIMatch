@@ -1,4 +1,4 @@
-# maldimatch
+# MALDImatch
 
 An R package for matching MALDI m/z peaks to LC-MS peptide identifications. Provides tools to compute peptide ion masses and isotopic distributions, build METASPACE-compatible databases, match MALDI peaks within a user-defined ppm tolerance, and visualise the overlap with Venn diagrams.
 
