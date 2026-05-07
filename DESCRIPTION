@@ -1,0 +1,22 @@
+Package: MALDImatch
+Title: Match MALDI Peaks to Computed LC-MS Peptide Ions
+Version: 0.1.0
+Authors@R: 
+    person("Brittney", "Gorman", email = "brittney.gorman@pnnl.gov",
+           role = c("aut", "cre"))
+Description: Provides tools for computing peptide ion masses and isotopic 
+    distributions from processed LC-MS files containing peptide identifications,
+    building METASPACE-compatible databases, matching MALDI m/z peaks to LC-MS
+    identifications within a ppm tolerance, and visualizing the overlap with
+    Venn diagrams.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
+Imports:
+    OrgMassSpecR,
+    data.table,
+    VennDiagram,
+    grid,
+    memoise
+
